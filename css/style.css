@@ -1,0 +1,9 @@
+:root {
+    --font-family-primary: 'Inconsolata';
+    --font-family-secondary: 'Montserrat';
+    --font-family-tertiary: 'Space Mono';
+    --black: #333;
+    --white: #fff;
+    --grey: #4f4f4f;
+    --grey-shaded: #bdbdbd;;
+}
