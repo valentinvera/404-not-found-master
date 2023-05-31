@@ -1,9 +1,130 @@
 :root {
     --font-family-primary: 'Inconsolata';
-    --font-family-secondary: 'Montserrat';
-    --font-family-tertiary: 'Space Mono';
+    --font-family-secondary: 'Space Mono';
+    --font-family-tertiary: 'Montserrat';
     --black: #333;
     --white: #fff;
     --grey: #4f4f4f;
     --grey-shaded: #bdbdbd;;
+}
+
+body {
+    height: 67.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding-top: 2.5rem;
+    padding-left: 5rem;
+    margin-bottom: 4rem;
+}
+
+.nav__a {
+    color: var(--black);
+    font-family: var(--font-family-primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    width: 85%;
+    margin-inline: auto;
+}
+
+.main__figure {
+    width: 33.688rem;
+}
+
+.main__div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__h2 {
+    color: var(--black);
+    font-family: var(--font-family-secondary);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.main__p {
+    color: var(--grey);
+    font-family: var(--font-family-secondary);
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    width: 67%;
+}
+
+.main__a {
+    color: var(--white);
+    background-color: var(--black);
+    font-family: var(--font-family-secondary);
+    font-size: .875rem;
+    text-transform: uppercase;
+    width: 13.5rem;
+    height: 4.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+.footer__p {
+    color: var(--grey-shaded);
+    font-family: var(--font-family-tertiary);
+    font-size: .875rem;
+}
+
+.footer__a:nth-child(1) {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        height: 59.313rem;
+    }
+
+    .nav {
+        padding-top: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main__figure {
+        width: 17.875rem;
+    }
+
+    .main__div {
+        margin-left: 1rem;
+    }
+
+    .main__h2 {
+        font-size: 3rem;
+    }
+
+    .main__p {
+        font-size: 1.125rem;
+        width: 86%;
+    }
 }
