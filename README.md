@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://404notfoundmaster.vercel.app/" target="_blank">
+    <a href="https://error404notfound.vercel.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://404notfoundmaster.vercel.app/" target="_blank">
+    <a href="https://error404notfound.vercel.app/" target="_blank">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Description 
 
-Challenge to clone a <a href="https://https://404notfoundmaster.vercel.app/" target="_blank">web page</a> showing error 404, made with html and css. 
+Challenge to clone a <a href="https://error404notfound.vercel.app/" target="_blank">web page</a> showing error 404, made with html and css. 
 
 ### Built With
 
